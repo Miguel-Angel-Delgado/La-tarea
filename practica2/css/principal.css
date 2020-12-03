@@ -1,0 +1,45 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-image: radial-gradient(rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.titulos {
+    text-align: center;
+}
+.boton {
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-top: 3rem;
+    text-align: center;
+    border: none;
+    width: 40%;
+}
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centrar {
+    text-align: center;
+}
+.verde {
+    background-color: rgb(14, 255, 94);
+    color: black;
+}
+.rojo {
+    background-color: red;
+}
+.azul {
+    background-color: rgb(0, 102, 255);
+}
+.amarillo {
+    background-color: rgb(246, 250, 0);
+    color: #000000;
+}

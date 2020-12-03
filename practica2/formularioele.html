@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosele.css">
+    <script src="validar.js"></script>
+</head>
+<body>
+    <h1>Registro de Electrodomésticos</h1>
+    <form action="registrarele.php" method="post" class="form-register" onsubmit="return validar();">
+        <h2 class="form__titulo">Ingresa los datos del producto</h2>
+        <div class="contenedor-inputs">
+<input type="number" id="no_serie" name="no_serie" placeholder="No.Serie" class="input-48">
+<input type="text" id="marca" name="marca" placeholder="Marca" class="input-100">
+<input type="text" id="modelo" name="modelo" placeholder="Modelo"class="input-48">
+<input type="number" id="precio" name="precio" placeholder="Precio" class="input-48">
+<input type="hidden" name= "oculto" value= "1">
+<input type="submit" value="Registrar" class="btn-enviar">
+        </div>
+    </form>
+</body>
+</html>
